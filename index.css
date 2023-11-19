@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    margin-top: 250px;
+}
+.container1{
+    flex: 1;
+    margin-left: 700px;
+}
+.container2 {
+    flex: 1;
+    margin-right: 700px;
+}
+.delete-list{
+    transition: background 0s;
+}
+.delete-list:hover{
+    background: red;
+}
+.delete-task {
+    transition: background 0s;
+}
+
+.delete-task:hover {
+    background: red;
+}
+.task-add{
+    transition: background 0s;
+}
+.task-add:hover{
+    background: blue;
+}
+.list-add {
+    transition: background 0s;
+}
+
+.list-add:hover {
+    background: blue;
+}
+.active-list{
+    font-weight: 900;
+    color: red;
+}
+.tasks {
+    list-style: none;
+    /* Remove default list styling */
+    padding: 0;
+    /* Remove default padding */
+}
+
+.tasks li {
+    display: block;
+    margin-bottom: 5px;
+    /* Add some spacing between list items */
+}
+
+.tasks input[type="checkbox"]:checked+label{
+    color: green;
+    font-weight: 2000;
+    /* Change text color to green when checkbox is checked */
+}

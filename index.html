@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Todo list</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/6fb6e12efd.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="list-container">
+            <h1 class="list-title">List</h1>
+            <ul class="lists" list-container>
+                
+            </ul>
+            <div>
+                <button class="list-add" add_new_list>+</button>
+                <input type="text" new_list_value>
+            </div>
+        </div>
+        <button class="delete-list" delete-list>Delete</button>
+    </div>
+    <div  class="container2">
+        <div class="task-container" data-list-display-container>
+            <h1 class="task-title" list-task-name></h1>
+            <h4 task-count-number></h4>
+            <ul class="tasks" task-container>
+            </ul>
+            <div>
+                <button class="task-add" add-new-task>+</button>
+                <input type="text" add-new-input-task>
+            </div>
+        </div>
+        <button class="delete-task" delete-task>Delete</button>
+    </div>
+</body>
+
+</html>
